@@ -1,0 +1,7 @@
+apiVersion: dteopen.example.com/v1alpha1
+kind: DTEOpenAssignCluster
+metadata:
+  name: dteopenassigncluster-clusterid-02
+spec:
+  # Add fields here
+  size: 1

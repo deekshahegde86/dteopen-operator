@@ -1,0 +1,4 @@
+---
+# tasks file for dteopenassigncluster
+- name: Run the script
+  script: assign-cluster.sh

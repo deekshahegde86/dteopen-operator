@@ -1,0 +1,4 @@
+---
+# tasks file for dteopenunassigncluster
+- name: Run the script
+  script: unassign-cluster.sh

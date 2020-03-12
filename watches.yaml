@@ -1,0 +1,17 @@
+---
+- version: v1alpha1
+  group: dteopen.example.com
+  kind: DTEOpenAssignCluster
+  role: /opt/ansible/roles/dteopenassigncluster
+- version: v1alpha1
+  group: dteopen.example.com
+  kind: DTEOpenUnassignCluster
+  role: /opt/ansible/roles/dteopenunassigncluster
+- version: v1alpha1
+  group: dteopen.example.com
+  kind: DTEOpenInstallOperator
+  role: /opt/ansible/roles/dteopeninstalloperator
+- version: v1alpha1
+  group: dteopen.example.com
+  kind: DTEOpenUninstallOperator
+  role: /opt/ansible/roles/dteopenuninstalloperator

@@ -1,0 +1,4 @@
+---
+# tasks file for dteopenuninstalloperator
+- name: Run the script
+  script: uninstall-operator.sh

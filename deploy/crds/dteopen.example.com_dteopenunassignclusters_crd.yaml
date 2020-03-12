@@ -1,0 +1,18 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: dteopenunassignclusters.dteopen.example.com
+spec:
+  group: dteopen.example.com
+  names:
+    kind: DTEOpenUnassignCluster
+    listKind: DTEOpenUnassignClusterList
+    plural: dteopenunassignclusters
+    singular: dteopenunassigncluster
+  scope: Namespaced
+  subresources:
+    status: {}
+  versions:
+  - name: v1alpha1
+    served: true
+    storage: true

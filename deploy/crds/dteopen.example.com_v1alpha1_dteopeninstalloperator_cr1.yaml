@@ -1,0 +1,7 @@
+apiVersion: dteopen.example.com/v1alpha1
+kind: DTEOpenInstallOperator
+metadata:
+  name: dteopeninstalloperator-clusterid-02
+spec:
+  # Add fields here
+  size: 1
