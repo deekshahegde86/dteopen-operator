@@ -1,7 +1,7 @@
 apiVersion: dteopen.example.com/v1alpha1
 kind: DTEOpenUnassignCluster
 metadata:
-  name: dteopenunassigncluster-clusterid-01
+  name: dteopenunassigncluster-user-ibmcloudlite01-cluster-01
 spec:
   # Add fields here
   size: 1
