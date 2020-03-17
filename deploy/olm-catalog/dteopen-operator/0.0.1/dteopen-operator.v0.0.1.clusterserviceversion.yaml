@@ -11,7 +11,8 @@ metadata:
             "name": "dteopenassigncluster-user-ibmcloudlite01-cluster-01"
           },
           "spec": {
-            "email": "ibmcloudlite01@gmail.com"
+            "email": "ibmcloudlite01@gmail.com",
+            "version": "0.0.1"
           }
         },
         {
@@ -22,7 +23,8 @@ metadata:
           },
           "spec": {
             "clusterId": "bpkq9dld02l8muj8fdr0",
-            "operatorUrl": "https://operatorhub.io/install/redis-enterprise.yaml"
+            "operatorUrl": "https://operatorhub.io/install/redis-enterprise.yaml",
+            "version": "0.0.1"
           }
         },
         {
@@ -33,7 +35,8 @@ metadata:
           },
           "spec": {
             "email": "ibmcloudlite01@gmail.com",
-            "clusterId": "bpkq9dld02l8muj8fdr0"
+            "clusterId": "bpkq9dld02l8muj8fdr0",
+            "version": "0.0.1"
           }
         }
       ]
