@@ -4,4 +4,4 @@ metadata:
   name: dteopenassigncluster-user-ibmcloudlite01-cluster-01
 spec:
   # Add fields here
-  size: 1
+  email: ibmcloudlite01@gmail.com

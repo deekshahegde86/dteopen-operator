@@ -1,4 +1,4 @@
 ---
 # tasks file for dteopeninstalloperator
 - name: Run the script
-  script: install-operator.sh
+  script: install-operator.sh "{{cluster_id}}" "{{operator_url}}"

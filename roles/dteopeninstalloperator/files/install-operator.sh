@@ -1,2 +1,4 @@
-curl -X GET -o weather.json https://api.oceandrivers.com/v1.0/getWeatherDisplay/cnarenal/?period=latestdata
-cat weather.json
+curl -X GET -o install-operator-output.json "https://labs.developer.ibm.com/labs/demo-operator-create.json?clusterId=${1}&url=${2}"
+ls
+pwd
+cat install-operator-output.json

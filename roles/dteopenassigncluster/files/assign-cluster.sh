@@ -1,2 +1,4 @@
-curl -X GET -o output.json https://labs.developer.ibm.com/labs/demo-monitor-openshift.json
-cat output.json
+curl -X GET -o assign-cluster-out.json "https://labs.developer.ibm.com/labs/demo-assign-openshift.json?email=${1}"
+cat assign-cluster-out.json
+ls
+pwd

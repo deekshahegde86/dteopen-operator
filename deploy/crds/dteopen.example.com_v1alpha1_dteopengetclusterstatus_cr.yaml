@@ -1,0 +1,8 @@
+apiVersion: dteopen.example.com/v1alpha1
+kind: DTEOpenGetClusterStatus
+metadata:
+  name: dteopengetclusterstatus-user-ibmcloudlite01-cluster-01
+spec:
+  # Add fields here
+  clusterId: bpkq9dld02l8muj8fdr0
+  email: ibmcloudlite01@gmail.com

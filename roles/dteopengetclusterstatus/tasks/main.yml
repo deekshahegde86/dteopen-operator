@@ -1,4 +1,4 @@
 ---
 # tasks file for dteopenunassigncluster
 - name: Run the script
-  script: unassign-cluster.sh
+  script: get-cluster-status.sh "{{email}}"

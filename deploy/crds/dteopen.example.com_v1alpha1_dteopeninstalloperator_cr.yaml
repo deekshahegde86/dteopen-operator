@@ -4,4 +4,5 @@ metadata:
   name: dteopeninstalloperator-user-ibmcloudlite01-cluster-01
 spec:
   # Add fields here
-  size: 1
+  clusterId: bpkq9dld02l8muj8fdr0
+  operatorUrl: https://operatorhub.io/install/redis-enterprise.yaml
