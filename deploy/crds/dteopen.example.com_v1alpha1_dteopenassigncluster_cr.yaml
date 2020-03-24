@@ -1,7 +1,8 @@
 apiVersion: dteopen.example.com/v1alpha1
 kind: DTEOpenAssignCluster
 metadata:
-  name: dteopenassigncluster-user-ibmcloudlite01-cluster-01
+  name: dteopenassigncluster-user-ibmcloudlite01-cluster-011
 spec:
   # Add fields here
   email: ibmcloudlite01@gmail.com
+  version: 0.0.1
