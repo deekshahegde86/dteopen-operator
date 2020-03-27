@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: dteopen-operator
+  namespace: dteopen
+spec:
+  name: dteopen-operator
+  displayName: dteopen-operator Custom Operators
+  publisher: community-operators
+  sourceType: grpc
